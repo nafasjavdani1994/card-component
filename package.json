@@ -1,0 +1,16 @@
+{
+  "name": "preview-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bundler": "^0.8.0",
+    "parcel": "^2.7.0"
+  }
+}

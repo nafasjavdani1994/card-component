@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-main-background: #090b1a;
+  --color-card-background: #1b1938;
+  --color-accent: #aa5cdb;
+  --color-main-heading: #fff;
+  --color-main-paragraph: #ffffffbf;
+  --color-stat-headings: #fff9;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--color-main-paragraph);
+  background: var(--color-main-background);
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Lexend Deca, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: flex;
+}
+
+h1 {
+  color: var(--color-main-heading);
+  margin-top: 0;
+  font-family: Inter, sans-serif;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+span {
+  color: var(--color-accent);
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: var(--color-stat-headings);
+  text-decoration: none;
+}
+
+.container {
+  width: 75%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card {
+  background: var(--color-card-background);
+}
+
+.card__body {
+  padding: 3rem;
+}
+
+.footer_text {
+  color: var(--color-main-heading);
+  font-family: Inter, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.card__footer a {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 25%;
+  }
+}
+
+/*# sourceMappingURL=index.77a9bc14.css.map */
